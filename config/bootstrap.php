@@ -2,9 +2,12 @@
 
 use lithium\core\Libraries;
 
-Libraries::add('faker', array(
-	'path' => 'vendor/fzaninotto/faker',
-	'bootstrap' => '/src/autoload.php'
-));
+$library = Libraries::get('faker');
 
+if (empty($library)) {
+	Libraries::add('faker', array(
+		'path' => LITHIUM_APP_PATH . '/vendor/fzaninotto/faker',
+		'bootstrap' => 'src/autoload.php'
+	));
+}
 ?>
