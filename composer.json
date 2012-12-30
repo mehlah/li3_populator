@@ -1,0 +1,22 @@
+{
+    "name": "mehlah/li3_populator",
+    "description": "Populate a database with mass insertion",
+    "keywords": ["faker", "fixtures"],
+    "type": "lithium-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Lahmam B.",
+            "email": "mehdi@lahmam.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "1.1.*",
+        "composer/installers": "*"
+    },
+    "suggest": {
+        "UnionOfRAD/lithium": "Lithium is required for this plugin.",
+        "fzaninotto/faker": "Faker is a PHP library that generates fake data for you."
+    },
+    "minimum-stability": "dev"
+}
