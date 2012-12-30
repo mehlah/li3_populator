@@ -29,5 +29,5 @@ This library is installable via [Composer](https://getcomposer.org/) as [mehlah/
 
 Don't forget to add the library to your application in `config/bootstrap/libraries.php`
 
-    Libraries::add('li3_faker');
+    Libraries::add('li3_populator');
 
