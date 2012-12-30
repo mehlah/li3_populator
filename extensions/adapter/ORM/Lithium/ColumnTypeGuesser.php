@@ -1,6 +1,6 @@
 <?php
 
-namespace li3_faker\extensions\adapter\ORM\Lithium;
+namespace li3_populator\extensions\adapter\ORM\Lithium;
 
 use Faker\Generator;
 
