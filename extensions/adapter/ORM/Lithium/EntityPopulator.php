@@ -36,7 +36,7 @@ class EntityPopulator {
 		$nameGuesser = new Name($generator);
 		$columnTypeGuesser = new ColumnTypeGuesser($generator);
 
-		foreach ((array) $model::schema()->fields() as $field => $config) {
+		foreach ($model::schema()->fields() as $field => $config) {
 			if ($field == $model::key()) {
 				continue;
 			}
